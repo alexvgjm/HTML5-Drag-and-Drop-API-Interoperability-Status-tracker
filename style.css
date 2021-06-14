@@ -80,15 +80,3 @@ ul.sortable li.dragging {
 ul.sortable .dragging + li {
     margin-top: 1em;
 }
-
-ul.sortable .dragging-over-top:not(.dragging) {
-    margin-top: 1.5em;
-    border-top: 0.2em dotted rgb(123, 123, 216);
-    cursor: all-scroll;
-}
-ul.sortable .dragging-over-bottom:not(.dragging) {
-    margin-bottom: 1.5em;
-    border-bottom: 0.2em dotted rgb(123, 123, 216);
-    cursor: all-scroll;
-}
-
