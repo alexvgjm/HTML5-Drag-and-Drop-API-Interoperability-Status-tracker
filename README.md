@@ -1,8 +1,8 @@
 # Fundamental Sortable List using HTML5 Drag and Drop API
 This is a fundamental UI web element. You can understand "fundamental" as an educational super adaptable, evergreen or long-term compatibility example usable in any modern standard tech ecosystem without dependencies or knowledge of the external and unstable tech ecosystem. It seeks to be a piece in a good teaching that leads better to understand the state of the art in the long term.
 
-## Charactestics
-- A simple not shared list (closed list) vertical sortable list.
+## Description
+- A simple not shared (closed) sortable vertical list vertical.
 - Easy to modify or extend to horizontal list and shared (open) lists.
 
 ## About the Fundamentalist Programming Philosophy
