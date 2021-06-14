@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+main {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+body {
+    background: #252525;
+    color: #f0f0f0;
+}
+
+
+ul.sortable {
+    list-style: none;
+    border: 0.1em solid rgb(163, 228, 163);
+    padding: 0.4em;
+    font-size: 1.25rem;
+}
+
+ul.sortable li {
+    border: 0.1em solid rgb(214, 186, 250);
+    padding: 0.3em;
+    min-width: 15em;
+    text-align: center;
+    user-select: none;
+    transition: margin 0.15s, border 0.1s;
+    cursor: move;
+}
+
+ul.sortable li:not(:first-child) {
+    margin-top: 0.4em;
+}
+
+ul.sortable:not(:active) li:hover {
+    background-color: rgb(65, 54, 80);
+}
+
+ul.sortable li.dragging {
+    background-color: rgb(84, 65, 110);
+    border: 0.1em dashed rgb(227, 210, 248);
+    margin-top: 1em;
+}
+
+ul.sortable .dragging + li {
+    margin-top: 1em;
+}
+
+ul.sortable .dragging-over-top:not(.dragging) {
+    margin-top: 1.5em;
+    border-top: 0.2em dotted rgb(123, 123, 216);
+    cursor: all-scroll;
+}
+ul.sortable .dragging-over-bottom:not(.dragging) {
+    margin-bottom: 1.5em;
+    border-bottom: 0.2em dotted rgb(123, 123, 216);
+    cursor: all-scroll;
+}
+
