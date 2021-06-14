@@ -1,3 +1,13 @@
+:root {
+    --color-font          : #7fc0bb;
+    --color-font-secondary           : #d94878;
+    --color-background               : #3b3b54;
+    --color-background-secondary     : #83344e;
+
+    --color-font-secondary-light: #f39eba;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +15,10 @@
 }
 h1 {
     text-align: center;
-    margin-top: 1em;
+    max-width: 80%;
+    border-bottom: 0.05em solid var(--color-font-secondary);
+    margin: 1em auto 0.5em auto;
+    padding-bottom: 0.2em;
 }
 main {
     padding-top: 1em;
@@ -15,20 +28,31 @@ main {
 }
 
 body {
-    background: #252525;
-    color: #f0f0f0;
+    background: var(--color-background);
+    color: var(--color-font);
+}
+
+footer {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.copyleft {
+    display: inline-block;
+    transform: scaleX(-1);
+    color: var(--color-font-secondary);
 }
 
 
 ul.sortable {
     list-style: none;
-    border: 0.1em solid rgb(163, 228, 163);
+    border: 0.1em solid var(--color-font-secondary);
     padding: 0.4em;
     font-size: 1.25rem;
 }
 
 ul.sortable li {
-    border: 0.1em solid rgb(214, 186, 250);
+    border: 0.1em solid var(--color-font);
     padding: 0.3em;
     min-width: 15em;
     text-align: center;
@@ -41,13 +65,15 @@ ul.sortable li:not(:first-child) {
     margin-top: 0.4em;
 }
 
-ul.sortable:not(:active) li:hover {
-    background-color: rgb(65, 54, 80);
+ul.sortable:not(:active) li:hover,
+ul.sortable li.dragging {
+    background-color: var(--color-background-secondary);
+    border-color: var(--color-font-secondary);
+    color: var(--color-font-secondary-light);
 }
 
 ul.sortable li.dragging {
-    background-color: rgb(84, 65, 110);
-    border: 0.1em dashed rgb(227, 210, 248);
+    border: 0.1em dashed var(--color-font-secondary);
     margin-top: 1em;
 }
 

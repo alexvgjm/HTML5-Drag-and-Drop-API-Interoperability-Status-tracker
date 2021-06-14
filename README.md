@@ -19,7 +19,7 @@ A fundamental web element should be:
 
 Fundamental philosophy does not force you to follow any particular development methodology or conventions (i.e. CSS BEM). Some form of testing is not mandatory but highly recommended. Due the lack of standard testing libraries in some languages, we consider legit the use and distribution of code using free third party testing libraries (i.e. Mocha, Jest, etc.).
 
-Self-explanatory comment-less clean code is always good but due to the teaching purpose consider legit the use of comments.
+Self-explanatory comment-less clean code is always good but due to the teaching purpose consider comment key parts.
 
 Those of us who support the Fundamentalist Programming Philosophy are not against the use of domain-specific frameworks or tools. We seeks the empowerment of simplicity and good standard technologies for engineering and web application development teaching.
 
