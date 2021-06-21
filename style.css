@@ -20,19 +20,26 @@ h1 {
     margin: 1em auto 0.5em auto;
     padding-bottom: 0.2em;
 }
+
+a, span {
+    color: var(--color-font-secondary);
+    font-weight: bold;
+}
 main {
     padding: 1em;
     display: flex;
+    flex-flow: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 body {
     background: var(--color-background);
     color: var(--color-font);
+    min-height: 90vh;
 }
 
-a, span {
+a {
     color: var(--color-font-secondary);
     font-weight: bold;
 }
@@ -54,6 +61,7 @@ ul.sortable {
     border: 0.1em solid var(--color-font-secondary);
     padding: 0.4em;
     font-size: 1.25rem;
+    margin-top: 1em;
 }
 
 ul.sortable li {
@@ -84,4 +92,12 @@ ul.sortable li.dragging {
 
 ul.sortable .dragging + li {
     margin-top: 1em;
+}
+
+
+@media (min-width: 1280px) {
+    main {
+        margin-top: 5em;
+    }
+
 }

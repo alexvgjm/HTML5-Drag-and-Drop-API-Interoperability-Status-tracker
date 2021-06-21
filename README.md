@@ -17,7 +17,7 @@ A fundamental web element should be:
 - Agnostic and pure (raw). No third party dependencies in production. Using only standard web technologies and formats (HTML5, CSS3, vanilla/node JavaScript, JSON, etc.). You can use development tools (i.e. CSS preprocessors, JS bundlers, transpilers, ...) but only if you make sure that the distributed version meets all requirements in this list without the knowledge of the used tools. That is, without coupling students or developers to such technologies.
 - Free as in Freedom. Published to Public Domain or under some Free Software compatible license.
 
-Fundamental philosophy does not force you to follow any particular development methodology or conventions (i.e. CSS BEM). Some form of testing is not mandatory but highly recommended. Due the lack of standard testing libraries in some languages, we consider legit the use and distribution of code using free third party testing libraries (i.e. Mocha, Jest, etc.).
+Fundamentalist programming philosophy does not force you to follow any particular development methodology or conventions (i.e. CSS BEM). Some form of testing is not mandatory but highly recommended. Due the lack of standard testing libraries in some languages, we consider legit the use and distribution of code using free third party testing libraries (i.e. Mocha, Jest, etc.).
 
 Self-explanatory comment-less clean code is always good but due to the teaching purpose consider comment key parts.
 

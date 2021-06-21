@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         event.target.classList.add('dragging');
         selectedLi = event.target;         // Store reference of dragging li
         list = event.target.parentElement // and the container list.
-        list.classList.add('dragging')
+
         event.dataTransfer.setData("text/plain", "");
         event.dataTransfer.effectAllowed = "move";
     })
