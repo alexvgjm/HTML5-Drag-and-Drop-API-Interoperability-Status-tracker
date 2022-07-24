@@ -1,10 +1,10 @@
 :root {
-    --color-font          : #7fc0bb;
-    --color-font-secondary           : #d94878;
-    --color-background               : #3b3b54;
-    --color-background-secondary     : #83344e;
+    --color-font                    : #7fc0bb;
+    --color-font-secondary          : #d94878;
+    --color-background              : #3b3b54;
+    --color-background-secondary    : #83344e;
 
-    --color-font-secondary-light: #f39eba;
+    --color-font-secondary-light    : #f39eba;
 }
 
 
@@ -55,6 +55,9 @@ footer {
     color: var(--color-font-secondary);
 }
 
+.status {
+    color: var(--color-font-secondary);
+}
 
 ul.sortable {
     list-style: none;
@@ -99,5 +102,4 @@ ul.sortable .dragging + li {
     main {
         margin-top: 5em;
     }
-
 }

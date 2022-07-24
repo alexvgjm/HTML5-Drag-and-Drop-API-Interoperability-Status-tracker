@@ -1,5 +1,7 @@
-# Fundamental Sortable List using HTML5 Drag and Drop API
-This is a fundamental UI web element. You can understand "fundamental" as an educational super adaptable, evergreen or long-term compatibility example usable in any modern standard tech ecosystem without dependencies or knowledge of the external and unstable tech ecosystem. It seeks to be a piece in a good teaching that leads better to understand the state of the art in the long term.
+# HTML5 Drag and Drop API Interoperability Status tracker
+A simple example to test or track the HTML5 Drag & Drop API on mobile devices.
+
+As soon as support for different operating systems and underlying hardware expands, this can be considered a _fundamental_ UI web element. You can understand "fundamental" as an educational super adaptable, evergreen or long-term compatibility example usable in any modern standard tech ecosystem without dependencies or knowledge of the external and unstable tech ecosystem. It seeks to be a piece in a good teaching that leads better to understand the state of the art in the long term.
 
 ## Description
 - A simple non-shared (closed) sortable vertical list.
